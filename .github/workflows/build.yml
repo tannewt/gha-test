@@ -18,4 +18,5 @@ jobs:
       run: |
         sudo dpkg --add-architecture i386
         sudo apt-get update
+        sudo apt-mark hold python3
         sudo apt-get install -y libsdl2-dev:i386
